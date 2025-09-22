@@ -10,7 +10,7 @@ function Tournaments() {
       setTournaments(data);
     };
     fetchTournaments();
-  }, []);
+  }, [])
 
   return (
     <div className="container">
